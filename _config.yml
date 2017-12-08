@@ -2,7 +2,7 @@ title: space2vec
 description: Clustering the goddamn universe
 
 url: //pippinlee.github.io
-baseurl: /space2vec-website
+baseurl:
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
