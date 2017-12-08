@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Long Haul
+title: Contact space2vec
 ---
 
 <div id="contact">

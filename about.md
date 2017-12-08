@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Long Haul
+title: About space2vec
 ---
 
 <div class="post">
