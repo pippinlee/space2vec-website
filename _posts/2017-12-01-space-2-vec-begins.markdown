@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "space2vec: how it begun"
+title:  "space2vec: how it began"
 date:   2017-12-01
 description: We've been working on space2vec for a while now. Here's the backstory to how it all started and what we're aiming to do over the next year.
 ---
