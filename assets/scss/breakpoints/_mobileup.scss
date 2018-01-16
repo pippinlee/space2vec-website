@@ -183,7 +183,7 @@ HEADER STYLING
 
 .header {
     background-color: $background-color;
-    background-image: url('../img/header.png');
+    background-image: url('../img/touring.jpg');
     background-size: cover;
     background-position: center center;
     color: white;
@@ -203,8 +203,11 @@ HEADER STYLING
         font-weight: 800;
         text-transform: uppercase;
         a {
-            color: white;
             text-decoration: none;
+            font-family: 'Rubik';
+            font-weight: 900;
+            font-style: italic;
+            color: #32003c;
         }
     }
 }
