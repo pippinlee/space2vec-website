@@ -63,16 +63,16 @@ We also quickly learned the common ways that exoplanets (planets outside of Eart
 
 <figure>
 	<img src="{{ '/assets/img/space2.gif' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig3. - What does data that satellites actually capture look like? This is an example of K2's data</figcaption>
+	<figcaption>Fig3. - What does satellite data look like? This is an example of K2's data</figcaption>
 </figure>
 
 #### Are astronomers using machine learning?
 
-**Yes**, but not much. Astronomy has traditionally had a human component to identify objects.  One of the more interesting projects we found was Galaxy Zoo which crowdsources identification of galaxies from the [Sloan Digital Sky Survey](http://www.sdss.org/). Most examples of machine learning tend to be on the classical side, using techniques such as K-means clustering or [logistic ](https://en.wikipedia.org/wiki/Logistic_regression)[regression](https://en.wikipedia.org/wiki/Logistic_regression) (technical stuff that will be in a post about our models).
+**Yes**, but not much. Astronomy has traditionally had a human component to identify objects. One of the more interesting projects we found was Galaxy Zoo which crowdsources identification of galaxies from the [Sloan Digital Sky Survey](http://www.sdss.org/). Most examples of machine learning tend to be on the classical side, using techniques such as K-means clustering or [logistic ](https://en.wikipedia.org/wiki/Logistic_regression)[regression](https://en.wikipedia.org/wiki/Logistic_regression) (technical stuff that will be in a post about our models).
 
 #### Are astronomers using modern techniques like neural nets?
 
-**Not really.** For instance a quick look for mentions of "neural nets" or “deep learning” in relation to astronomy on [arxiv.org](https://arxiv.org/) doesn’t come up with more than a few results. After speaking to a Machine Learning PhD turned astronomer from the University of Toronto, we learned there’s a reason for this––you can’t just throw a standard model from scikit-learn at the available data, you need to fundamentally understand what you are doing on both the astronomy and modeling side. This is where we are hoping to shed the most light since this is how we operate as a company––make sure we understand the problem from every aspect, then start building a custom model that uses these insights. We will always try to come back to this point, *why can’t you just throw some out-of-the-box model at it?*
+**Not really.** For instance a quick look for mentions of "neural nets" or “deep learning” in relation to astronomy on [arxiv.org](https://arxiv.org/) doesn’t come up with more than a few results. After speaking to a Machine Learning PhD turned astronomer from the University of Toronto, we learned there’s a reason for this––you can’t just throw a standard model from scikit-learn at the available data, you need to fundamentally understand what you are doing on both the astronomy and modeling side. This is where we're hoping to shed the most light since this is how we operate as a company––make sure we understand the problem from many different perspectives, then start building a custom model that uses these insights. We will always try to come back to this point, *why can’t you just throw some out-of-the-box model at it?*
 
 #### Deciding on a Problem
 
@@ -80,6 +80,6 @@ During our research we found this paper: [Automated Transient Identification in 
 
 It outlines using a machine learning model (random forest) with data from the Dark Energy Survey Supernova program (DES-SN) to make identifying transients more efficient and accurate. It provided data, code, and good documentation of the model they built. We decided it’d be a good initial challenge to see if we can beat the paper’s model with a deep neural network.
 
-Our next post will talk more about the task-at-hand, how we have approached scoping of the problem as well as model architectures. Stay tuned!
+Our next post will talk more about the task-at-hand, our plan for approaching the problem, as well as model architectures. Stay tuned!
 
 We’d like to give a big thank you to [Nathalie Ouellette](https://twitter.com/angryastropanda?lang=en), [Dustin Lang](https://twitter.com/dstndstn), [Dan Foreman-Mackey](https://twitter.com/exoplaneteer?lang=en), and [Ross Fadely](https://twitter.com/rossfadely?lang=en) for taking their time to answer our beginner questions and giving valuable input to getting this project going!
