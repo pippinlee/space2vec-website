@@ -16,7 +16,7 @@ _"Clustering the entire goddamn universe"._
 
 It was early July this past summer when Cole first started flying these words around the DeepLearni.ng office. We were discussing dream projects to work on within the field of deep learning (a topic we will cover, at a high level, in another post), and a quick survey of the room confirmed our initial suspicions… space is pretty freaking awesome––but how would deep learning techniques actually work in a field with so much history and tradition behind their data analysis toolkit?
 
-It was this question that led us to spend the next few months diving deep into the space sector and talking with astronomers to see if maybe there is use for *any* machine learning in astronomy. After all––astronomy is a data problem and data is what drives machine learning.
+This question led us to spend the next few months diving deep into the space field, and talking with astronomers to see if there may be a use for *any* machine learning in astronomy. After all––astronomy is a data problem and data is what drives machine learning.
 
 <figure>
 	<img src="{{ '/assets/img/space3.gif' | prepend: site.baseurl }}" alt=""> 
@@ -37,7 +37,7 @@ We come from various backgrounds (computer science, web development, pure mathem
 
 #### Our Initial Research
 
-Although we had initial ideas of problems to tackle, such as using some new techniques from the academic world to "cluster the entire goddamn universe", we knew we had to be practical––after all, one of our guiding principles at Deeplearni.ng is to be functionally driven. This forced us to approach our research with a question:
+Although we had initial ideas of problems to tackle, such as using some new techniques from the academic world to "cluster the entire goddamn universe", we knew we had to be practical. This forced us to approach our research with a question:
 
 **Can we find a _real, annoying_ problem in the astronomy community where we can help by applying modern machine learning techniques?**
 

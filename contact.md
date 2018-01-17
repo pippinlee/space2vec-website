@@ -9,7 +9,7 @@ title: Contact space2vec
     <p class="intro">
       We're happy to hear questions, or about other projects being worked on at the intersection of machine learning and astronomy. The best way to reach us:
     </p>
-    <p>Cole Clifford: <a href="cc@deeplearni.ng">cc@deeplearni.ng</a> or <a href="https://twitter.com/coleclifford?lang=en">@coleclifford</a></p>
-    <p>Pippin Lee: <a href="pl@deeplearni.ng">pl@deeplearni.ng</a> or <a href="https://twitter.com/pippinlee?lang=en">@pippinlee</a></p>
+    <p>Cole Clifford: <a target="_blank" href="mailto:cc@deeplearni.ng">cc@deeplearni.ng</a> or <a href="https://twitter.com/coleclifford?lang=en">@coleclifford</a></p>
+    <p>Pippin Lee: <a href="mailto:pl@deeplearni.ng">pl@deeplearni.ng</a> or <a target="_blank" href="https://twitter.com/pippinlee?lang=en">@pippinlee</a></p>
   </div>
 </div>

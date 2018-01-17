@@ -1,5 +1,5 @@
 title: space2vec
-description: Clustering the goddamn universe
+description: The space between machine learning and astronomy
 
 url: //pippinlee.github.io
 baseurl:
@@ -20,9 +20,6 @@ navigation:
    url: /contact
 
 social:
-   github: space2vec
-   twitter: space2vec
-   facebook: space2vec
    email: pl@deeplearni.ng
 
-google_analytics: ""
+google_analytics: "UA-70081252-2"
