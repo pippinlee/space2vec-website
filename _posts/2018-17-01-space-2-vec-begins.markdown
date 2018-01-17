@@ -2,7 +2,8 @@
 layout: post
 title:  "Starting space2vec"
 date:   2018-01-15
-description: We've been working on space2vec for a while now. Here's the backstory to how it all started and what we're aiming to do over the next year. <a href="http://space2vec.com/blog/space-2-vec-begins/">More...</a>
+description: We've been working on space2vec for a while now. Here's the backstory to how it all started and what we're aiming to do over the next year.
+url: http://space2vec.com/blog/space-2-vec-begins/
 image: space4.jpg
 ---
 
