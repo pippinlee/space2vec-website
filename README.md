@@ -7,4 +7,5 @@ The goal of this website is to document our learning of the combination of machi
 To run:
 
 `npm install`
+
 `gulp`
