@@ -2,7 +2,7 @@
 layout: post
 title:  "Starting space2vec"
 date:   2018-01-15
-description: We've been working on space2vec for a while now. Here's the backstory to how it all started and what we're aiming to do over the next year.
+description: We've been working on space2vec for a while now. Here's the backstory to how it all started and what we're aiming to do over the next year. <a href="http://space2vec.com/blog/space-2-vec-begins/">More...</a>
 image: space4.jpg
 ---
 
@@ -14,7 +14,7 @@ _The goal of these blog posts is to document our research into applying modern m
 
 _"Clustering the entire goddamn universe"._
 
-It was early July this past summer when Cole first started flying these words around the DeepLearni.ng office. We were discussing dream projects to work on within the field of deep learning (a topic we will cover, at a high level, in another post), and a quick survey of the room confirmed our initial suspicions… space is pretty freaking awesome––but how would deep learning techniques actually work in a field with so much history and tradition behind their data analysis toolkit?
+It was early July this past summer when Cole first started flying these words around the DeepLearni.ng office. We were discussing dream projects to work on within the field of <a href="http://neuralnetworksanddeeplearning.com/" target="_blank">deep learning</a>, and a quick survey of the room confirmed our initial suspicions… space is pretty freaking awesome––but how would deep learning techniques actually work in a field with so much history and tradition behind their data analysis toolkit?
 
 This question led us to spend the next few months diving deep into the space field, and talking with astronomers to see if there may be a use for *any* machine learning in astronomy. After all––astronomy is a data problem and data is what drives machine learning.
 
@@ -23,9 +23,9 @@ This question led us to spend the next few months diving deep into the space fie
 	<figcaption>Fig1. - Lightcurves as seen from Earth</figcaption>
 </figure>
 
-#### What We Are Doing
+#### What Are We Doing?
 
-The aim of this blog will be to document our progress––code, unfiltered stories, data––and how machine learning and astronomy can work together to better understand the skies above us. It will hopefully act as a guide and motivation on how *you* can travel down a similar path too.
+The aim of this blog will be to document our progress––unfiltered stories, code, data––and how machine learning and astronomy can work together to better understand the skies above us. It will hopefully act as a guide and motivation on how *you* can travel down a similar path too.
 
 #### About Us
 
@@ -37,7 +37,7 @@ We come from various backgrounds (computer science, web development, pure mathem
 
 #### Our Initial Research
 
-Although we had initial ideas of problems to tackle, such as using some new techniques from the academic world to "cluster the entire goddamn universe", we knew we had to be practical. This forced us to approach our research with a question:
+Although we had initial ideas of problems to tackle, such as using newer techniques from the academic world to "cluster the entire goddamn universe", we knew we had to be practical. This forced us to approach our research with a question:
 
 **Can we find a _real, annoying_ problem in the astronomy community where we can help by applying modern machine learning techniques?**
 
