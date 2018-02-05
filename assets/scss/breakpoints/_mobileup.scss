@@ -183,15 +183,27 @@ HEADER STYLING
 
 .header {
     background-color: $background-color;
-    background-image: url('../img/touring.jpg');
+    background-image: url('../img/header-purple-tele-shadow-2.png');
     background-size: cover;
     background-position: center center;
     color: white;
     padding: 0;
     height: 3em;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
     .container {
         padding: 0;
         max-width: 100%;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
     }
     h1 {
         margin: 0;

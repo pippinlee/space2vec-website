@@ -59,15 +59,27 @@ HEADER STYLING
 ***************/
 
 .header {
-    height: 13em;
+    height: 18em;
     position: relative;
-    padding-bottom: 6em;
+    padding-bottom: 2em;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
     .container {
         position: relative;
         top: 50%;
         transform: translateY(-50%);
         max-width: 800px;
         overflow: hidden;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
     }
     h1 {
         font-size: 3em;
