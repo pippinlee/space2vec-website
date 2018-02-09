@@ -7,8 +7,7 @@ url: http://space2vec.com/blog/space-2-vec-supernova-detection/
 ---
 
 <figure>
-	<img src="{{ '/assets/img/post-2/xb-cc.jpg' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Supernova lifecycle.</figcaption>
+	<img src="{{ '/assets/img/post-2/xb-cc.jpg' | prepend: site.baseurl }}" alt="">
 </figure>
 
 #### Update #2: Building a model to detect Supernovas
