@@ -173,7 +173,7 @@ We decided for our baseline model that we would use the feature engineered data 
 
 First we needed to set up an environment that could handle a reasonable amount of compute.
 
-**Development Environment**
+#### Development Environment
 
 We didn't do much initial assessment of different compute systems since we were already very comfortable using Amazon's Web Services (AWS).
 
