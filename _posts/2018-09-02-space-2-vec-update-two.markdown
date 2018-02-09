@@ -111,7 +111,7 @@ We have to make sure that we take both of these columns out of the data that get
 With respect to exploring other model approaches, the paper also attempts using [Support Vector Machines](http://www.cs.columbia.edu/~kathy/cs4701/documents/jason_svm_tutorial.pdf) and [Adaboosted decision trees](https://en.wikipedia.org/wiki/AdaBoost) but random forest are found to have the best accuracy. The random forest algorithm used in ATIDES is from the popular [scikit-learn](http://scikit-learn.org/stable/) Python library (which makes a lot of things very easy and accessible).
 
 
-**Side-note: scikit-learn is the swiss army knife of data science. For running a lot of models it's will make your life much nicer. It's a great starting point, but also a standard for quickly getting common classical machine learning models like logistic regression.**
+**Side-note: scikit-learn is the swiss army knife of data science. For running off-the-shelf models it will make life much nicer. It's a great starting point, but also a standard for quickly getting common classical machine learning models like logistic regression.**
 
 How does random forest work? At a high level it creates a set of [decision trees](https://www.quora.com/What-is-an-intuitive-explanation-of-a-decision-tree) from the data and classifies the image based on a 'vote' among the decision trees.
 
