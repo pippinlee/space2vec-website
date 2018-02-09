@@ -123,7 +123,7 @@ The random forest algorithm produces weightings for its features. For example in
 
 Given this, it's neat to think of machine learning helping us see things we cannot see even if we were experienced astronomers––much like how x-rays machines help doctors see and understand things that normally wouldn't be possible.
 
-**Understanding The Target And Metrics**
+**Understanding The Target and Metrics**
 
 We spent a good amount of time understanding how the paper presents its results, which had a lot to do with how they classify results using the below confusion matrix.
 
