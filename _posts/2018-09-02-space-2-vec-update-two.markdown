@@ -4,11 +4,14 @@ title:  "Supernovas"
 date:   2018-02-09
 description: Using images from a Chilean telescope we start to build a basic model for detecting supernovas using XGBoost. 
 url: http://space2vec.com/blog/space-2-vec-supernova-detection/
-image: post-2/xb-cc.jpg
 ---
 
-#### Update #2: Building a model to detect Supernovas
+<figure>
+	<img src="{{ '/assets/img/post-2/xb-cc.jpg' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Supernova lifecycle.</figcaption>
+</figure>
 
+#### Update #2: Building a model to detect Supernovas
 
 _The goal of these blog posts is to document our research into applying modern machine learning techniques in astronomy. We'll write about what works, and what doesn't. We write software by day so these posts should hopefully give insight into HOW modern astronomy and machine learning works as we better understand them ourselves._
 
