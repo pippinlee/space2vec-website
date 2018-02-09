@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Supernovas"
-date:   2018-02-07
+date:   2018-02-09
 description: Using images from a Chilean telescope we start to build a basic model for detecting supernovas using XGBoost. 
 url: http://space2vec.com/blog/space-2-vec-supernova-detection/
 image: post-2/xb-cc.jpg
@@ -159,7 +159,7 @@ A helpful way to understand how these two rates are related is try out this inte
 This figure represents _ATIDES_ results for all three thresholds. This ideally means a curve on the inside (left) of their curve.
 
 
-## Our Approach and Baseline Model
+#### Our Approach and Baseline Model
 
 When building a model, the most important first step is the data. We spent a good amount of time exploring and getting comfortable with the data to get an understanding of what is described and how.
 
