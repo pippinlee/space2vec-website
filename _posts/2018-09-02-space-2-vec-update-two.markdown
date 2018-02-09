@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Detecting Supernovas"
+title:  "Supernovas"
 date:   2018-02-07
 description: Using images from a Chilean telescope we start to build a basic model for detecting supernovas using XGBoost. 
 url: http://space2vec.com/blog/space-2-vec-supernova-detection/
@@ -25,7 +25,7 @@ We searched [arxiv.org](https://arxiv.org/), a website researchers use to post t
 
 <figure>
 	<img src="{{ '/assets/img/post-2/supernova-lifecycle.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Supernova lifecycle</figcaption>
+	<figcaption>Supernova lifecycle.</figcaption>
 </figure>
 
 
@@ -35,23 +35,18 @@ _ATIDES_ laments the labour intensive work of looking at images to discern if th
 
 #### Overview of ATIDES Solution to Identifying Transients
 
-**Data Summary**
+ATIDES code and data: [http://portal.nersc.gov/project/dessn/autoscan/](http://portal.nersc.gov/project/dessn/autoscan/)
+
 * Features created (manually): 38
 * Images: 898,963
 * Images of supernovas: 454,092
 * Images not of supernovas: 444,871
-
-ATIDES code and data: [http://portal.nersc.gov/project/dessn/autoscan/](http://portal.nersc.gov/project/dessn/autoscan/)
-
-
-
 * Images and FITS files can be found under "Images"
 * Feature engineered CSV can be found under "Features"
     
-**Side-note: FITS files are a structured means of storing data along with metadata (data about the data) such as data and time of the information gathered.**
+**Side-note: FITS files are a structured means of storing data along with metadata (data about the data) such as date and time of the information gathered.**
 
 Let's first try to understand the paper and its metrics so we know what we're hoping to beat. The central dataset in the paper is the first release of data from the _Dark Energy Survey Supernova program (DES-SN)_ paired with hand-crafted data.
-
 
 **Side-note: Hand-crafting data, often referred to as feature engineering, is the process of looking at the data available and converting it into data that might be easier to feed into a model or let the model pick up on. In this case, the researchers took the images and extracted information such that the model would be able to pick up on certain things it wouldn't be able to before.**
 
