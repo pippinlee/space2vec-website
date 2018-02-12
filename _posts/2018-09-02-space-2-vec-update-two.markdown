@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Supernovas"
+title:  "Supernovae"
 date:   2018-02-09
-description: Using images from a Chilean telescope we start to build a basic model for detecting supernovas using XGBoost. 
+description: Using images from a Chilean telescope we start to build a basic model for detecting supernovae using XGBoost. 
 url: http://space2vec.com/blog/space-2-vec-supernova-detection/
 ---
 
@@ -10,7 +10,7 @@ url: http://space2vec.com/blog/space-2-vec-supernova-detection/
 	<img src="{{ '/assets/img/post-2/xb-cc.jpg' | prepend: site.baseurl }}" alt="">
 </figure>
 
-#### Update #2: Building a model to detect Supernovas
+#### Update #2: Building a model to detect Supernovae
 
 _The goal of these blog posts is to document our research into applying modern machine learning techniques in astronomy. We'll write about what works, and what doesn't. We write software by day so these posts should hopefully give insight into HOW modern astronomy and machine learning works as we better understand them ourselves._
 
@@ -21,7 +21,7 @@ In our previous update, we explored different astronomy problems and their feasi
 **_Side Note_: These comparisons are crucial for people learning to build their first model, how else would you know how well you are doing?**
 
 
-We searched [arxiv.org](https://arxiv.org/), a website researchers use to post their work. During our search we found a paper that discusses building more efficient ways of detecting supernova (an exploding star), using images from the Dark Energy Survey. Titled _[Automated Transient Identification in the Dark Energy Survey](https://arxiv.org/abs/1504.02936) (ATIDES),_ the paper outlines a model for detecting supernovas from images. It explains that the current methods heavily depend on the human eye for detection of transient astronomical events.
+We searched [arxiv.org](https://arxiv.org/), a website researchers use to post their work. During our search we found a paper that discusses building more efficient ways of detecting supernova (an exploding star), using images from the Dark Energy Survey. Titled _[Automated Transient Identification in the Dark Energy Survey](https://arxiv.org/abs/1504.02936) (ATIDES),_ the paper outlines a model for detecting supernovae from images. It explains that the current methods heavily depend on the human eye for detection of transient astronomical events.
 
 
 
@@ -41,8 +41,8 @@ ATIDES code and data: [http://portal.nersc.gov/project/dessn/autoscan/](http://p
 
 * Features created (manually): 38
 * Images: 898,963
-* Images of supernovas: 454,092
-* Images not of supernovas: 444,871
+* Images of supernovae: 454,092
+* Images not of supernovae: 444,871
 * Images and FITS files can be found under "Images"
 * Feature engineered CSV can be found under "Features"
     
@@ -62,12 +62,12 @@ Source: [https://www.darkenergysurvey.org/the-des-project/overview/](https://www
 	<figcaption>Cerro Tololo Inter-American Observatory, high in the Chilean Andes.</figcaption>
 </figure>
 
-The dataset contains 444,871 images of human-verified artifacts, and 454,092 simulated transient events projected onto real images of galaxies. Essentially half the dataset contains manufactured images of supernovas, which seems weird, but _data augmentation_ has become a popular technique for bettering a model. Data––both in quality and quantity––is a big part of the equation when considering the accuracy of a model.
+The dataset contains 444,871 images of human-verified artifacts, and 454,092 simulated transient events projected onto real images of galaxies. Essentially half the dataset contains manufactured images of supernovae, which seems weird, but _data augmentation_ has become a popular technique for bettering a model. Data––both in quality and quantity––is a big part of the equation when considering the accuracy of a model.
 
 
 **Side-note: Data augmentation has been explored quite a bit, from simply changing the data that you have, to trying to create new data based on what you have ([GANs](https://hackernoon.com/how-do-gans-intuitively-work-2dda07f247a1) are a popular new way of doing this). This is seen in the image recognition field; if you have 10,000 colour images of cats and get the same 10,000 images in black and white, your dataset is now 20,000. Your model should be able to understand what a cat is, even if the colour is different.**
 
-Supernovas are rare, so there's a lack of supernova images that can be used for training. _ATIDES_ make use of the few images of supernovas that they have, and overlay them on different galaxies. By using many different backgrounds (essentially adding unique space noise) with each supernova picture, researchers were able to build a strong dataset for their model.
+Supernovae are rare, so there's a lack of supernova images that can be used for training. _ATIDES_ make use of the few images of supernovae that they have, and overlay them on different galaxies. By using many different backgrounds (essentially adding unique space noise) with each supernova picture, researchers were able to build a strong dataset for their model.
 
 **When data is sparse, is it a good idea to use "simulated images"?** 
 
@@ -192,7 +192,7 @@ We spun up a [P2 AWS instance](https://aws.amazon.com/ec2/instance-types/p2/), u
 
 **Side-note: In the name of education we've open sourced all our code! We talk about this in the Code section.**
 
-#### XG-Boost compared to Random Forest: detecting supernovas
+#### XG-Boost compared to Random Forest: detecting supernovae
 
 Finally, let's talk about our super awesome (and totally, really complicated to run) first model!
 
@@ -241,7 +241,7 @@ Data in a pickle file can also be found [here](https://drive.google.com/open?id=
 
 #### Conclusion
 
-These past two weeks were all about understanding the data and the problem. We looked at the paper's random forest model and feature engineering to classify supernovas.
+These past two weeks were all about understanding the data and the problem. We looked at the paper's random forest model and feature engineering to classify supernovae.
 
 We looked at understanding the paper's metrics and how they achieved them, spinning up a P2 instance on AWS to quickly get model building and building a half-decent baseline model.
 
