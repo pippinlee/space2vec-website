@@ -81,7 +81,7 @@ With the knowledge that good data and model go hand-in-hand, we could see a huge
 
 **Our goal is differentiating between images containing artifacts and those containing transient objects (eg: supernova).**
 
-In total, the survey will cover 1/8th the entire sky using a telescope at the [Cerro Tololo Inter-American Observatory](http://www.ctio.noao.edu/noao/) in Chile. The ATIDES paper uses a subset of this data and focuses on the supernova aspects of the Dark Energy Survey, referred to as DES-SN.
+In total, the survey will cover 1/8th the entire sky using a telescope at the [Cerro Tololo Inter-American Observatory](https://noirlab.edu/public/programs/ctio/) in Chile. The ATIDES paper uses a subset of this data and focuses on the supernova aspects of the Dark Energy Survey, referred to as DES-SN.
 
 The collection of algorithms used in ATIDES is referred to as [Autoscan](http://portal.nersc.gov/project/dessn/autoscan/), a Python package for artifact rejection.
 
@@ -171,7 +171,7 @@ We have done this a few ways, and although our baseline uses the feature enginee
 
 Ok––a quick tease, the ATIDES paper mentions that further exploration could be done using Convolutional Neural Nets (CNNs), which would allow skipping the manual feature engineering steps needed in their process. A valid critique ATIDES adds is that CNNs (and neural networks in general) do suffer from a lack of transparency of what the model is doing. While we won't be discussing CNNs here, it will take our entire next update.
 
-We decided for our baseline model that we would use the feature engineered data from _ATIDES_ and see how XGBoost would perform compared to the paper's use of random forest. XGBoost is a common algorithm usually used for regression and classification problems. It uses the concept of gradient boosting on-top of decision trees. If you're looking for a more in-depth info of the inner working of XGBoost you can can check out [this overview](http://xgboost.readthedocs.io/en/latest/model.html). XGBoost is often used in data science competitions and is really quick to get up-and-running.
+We decided for our baseline model that we would use the feature engineered data from _ATIDES_ and see how XGBoost would perform compared to the paper's use of random forest. XGBoost is a common algorithm usually used for regression and classification problems. It uses the concept of gradient boosting on-top of decision trees. If you're looking for a more in-depth info of the inner working of XGBoost you can can check out [this overview](https://xgboost.readthedocs.io/en/stable/tutorials/model.html). XGBoost is often used in data science competitions and is really quick to get up-and-running.
 
 First we needed to set up an environment that could handle a reasonable amount of compute.
 
