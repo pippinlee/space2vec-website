@@ -23,16 +23,16 @@
       <meta content="{{ site.description }}" property="og:description">
     {% endif %}
     {% if page.url %}
-      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+      <meta content="{{ page.url | absolute_url }}" property="og:url">
     {% endif %}
     {% if page.date %}
       <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-      <meta content="{{ site.url }}/about/" property="article:author">
+      <meta content="{{ '/about' | absolute_url }}" property="article:author">
     {% endif %}
     {% if page.image %}
-      <meta content="{{ site.url }}/assets/img/{{ page.image }}" property="og:image">
+      <meta content="{{ '/assets/img/' | append: page.image | absolute_url }}" property="og:image">
     {% else %}
-      <meta content="{{ '/assets/img/header.png' | prepend: site.url }}" property="og:image">
+      <meta content="{{ '/assets/img/header-purple-tele-shadow-2.png' | absolute_url }}" property="og:image">
     {% endif %}
 
     <!-- Twitter Cards -->
@@ -45,7 +45,7 @@
       <meta name="twitter:title" content="{{ site.title }}">
     {% endif %}
     {% if page.url %}
-      <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+      <meta name="twitter:url" content="{{ page.url | absolute_url }}">
     {% endif %}
     {% if page.description %}
       <meta name="twitter:description" content="{{ page.description }}">
@@ -53,9 +53,9 @@
       <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
     {% if page.image %}
-      <meta name="twitter:image:src" content="{{ site.url }}/assets/img/{{ page.image }}">
+      <meta name="twitter:image:src" content="{{ '/assets/img/' | append: page.image | absolute_url }}">
     {% else %}
-      <meta name="twitter:image:src" content="{{ '/assets/img/header.png' | prepend: site.url }}">
+      <meta name="twitter:image:src" content="{{ '/assets/img/header-purple-tele-shadow-2.png' | absolute_url }}">
     {% endif %}
 
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Supernovae"
 date:   2018-02-09
 description: Using images from a Chilean telescope we start to build a basic model for detecting supernovae using XGBoost. 
-url: http://space2vec.com/blog/space-2-vec-supernova-detection/
+permalink: /blog/space-2-vec-update-two/
 ---
 
 <figure>
